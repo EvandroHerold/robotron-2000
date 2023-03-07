@@ -41,7 +41,7 @@ main {
     height: 110%;
     z-index: 1;
     position: absolute;
-    left: -20%;
+    left: -10%;
     top: -5%;
 }
 
@@ -63,6 +63,49 @@ main {
     clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
     border-left: 5px solid var(--main-cinza);
     height: 80%;
+}
+
+/****************************** Mudar cor robô *****/
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 12em;
+}
+
+.alterar {
+    color: var(--main-cinza);
+    width: 5em;
+    height: 5em;
+    margin: 0.1em;
+    border: var(--main-cinza);
+    border-radius: 50%;
+    font-weight: 700;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.branco {
+    background-color: white;
+}
+
+.preto {
+    background-color: black;
+}
+
+.rosa {
+    background-color: rgb(252, 151, 169);
+}
+
+.vermelho {
+    background-color: red;
 }
 
 /****************************** Equipamentos *****/
